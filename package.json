@@ -1,0 +1,36 @@
+{
+  "name": "news-feed-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomyoll/news-feed-api.git"
+  },
+  "author": "tomyoll",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tomyoll/news-feed-api/issues"
+  },
+  "homepage": "https://github.com/tomyoll/news-feed-api#readme",
+  "dependencies": {
+    "dotenv": "16.3.1",
+    "eslint": "^8.51.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "express": "4.18.2",
+    "helmet": "7.0.0",
+    "mongoose": "7.6.0",
+    "morgan": "1.10.0",
+    "nodemon": "3.0.1",
+    "pino": "8.15.6",
+    "pino-pretty": "10.2.3",
+    "prettier": "3.0.3"
+  }
+}
